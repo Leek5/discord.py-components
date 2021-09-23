@@ -4,7 +4,7 @@ deploy:
   provider: pypi
   username: __token__
   password:
-    secure: pypi-AgEIcHlwaS5vcmcCJGY1NWFiZGQzLTQwZjctNDhjMC04YWE2LTNiNjMxZDRjZGZiNAACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgkjWoOXr5xszlRbsvFiKIBQ4a1Ij-OoTIdTIQV4BBn7k
+    secure: $PYPI_KEY
   distributions: sdist bdist_wheel
   on:
     tags: true
