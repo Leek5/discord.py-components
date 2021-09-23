@@ -3,6 +3,7 @@
     <h1>pycord-components</h1>
     <p>based on discord.py components - to comply with py-cord</p>
 </div>
+<img src="https://app.travis-ci.com/Leek5/pycord-components.svg?branch=master" alt="Travis CI Result">
 
 ## Welcome!
 
