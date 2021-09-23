@@ -4,7 +4,7 @@ from os import path, environ
 
 from setuptools import setup
 
-PACKAGE_NAME = "discord_components"
+PACKAGE_NAME = "pycord_components"
 HERE = path.abspath(path.dirname(__file__))
 
 with open("README.md", "r", encoding="utf-8") as f:
@@ -34,17 +34,17 @@ extras["dev"] = extras["lint"] + extras["readthedocs"]
 setup(
     name=PACKAGE_NAME,
     version=VERSION,
-    author="kiki7000",
-    author_email="devkiki7000@gmail.com",
-    description="An unofficial library for discord components.",
+    author="Leek5",
+    author_email="gyubini38@protonmail.com",
+    description="An unofficial library for pycord components.",
     extras_require=extras,
     include_package_data=True,
     install_requires=requirements,
     license="MIT License",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/kiki7000/discord.py-components",
-    packages=["discord_components", "discord_components.ext"],
+    url="https://github.com/Leek5/pycord-components",
+    packages=["pycord_components", "pycord_components.ext"],
     python_requires=">=3.6",
     classifiers=[
         "Intended Audience :: Developers",
