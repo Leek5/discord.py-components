@@ -4,7 +4,7 @@ deploy:
   provider: pypi
   username: __token__
   password:
-    secure: $PYPI_KEY
+    secure: qXKhFUo/1W6ULZCeIFfDWv5aTDqEFBkUuuhs4hhqr7GfDsd2AiHnz3cSDKItb9d5INbSZmoXh/7/c5tn3KEbphNonyRJH772AM01A0dedrfe3la30kZLgkAWTYBGLC6/etueJX5gD07I0HXhWMITaxIQXuwe+WBRNvIYdLn5iZpQhD+4hdPpJ2YuKzQGi2Z3UpU/XuSo19Buj7eULHGKvJul57os7tQSfw2l5iyqDNsVPe3OI15oKHFXjueDoy4jSeybWXceIgbKipZWedOGjhn2goN0kjBd2kmQDu0A/Q5hxPD3/4de1h03nnb7t2+L0U3gqWLCoOh+xD2zOF/hHW4FFZqGbyB4IWQ36i2qIFY2tQQ4VvfiXdMfhM3N0TTEUkE+bA8r2+fRO3wfhVakQDuQxO53m29waeUVvffy71RdUKQ5ZWg0ElOewmfxBqkyILHnsYP2unXhAyrngI4Vwtlqz/b+S6Ipe9tuTC8b3roqzJYBjf4lkPKwlE75864KCGbSLXNTYXocniYNAn9ZFVOeaQa4N0gFPlV+/Ps+6yYqguLqUgiDwHXID5Z57zOPUSsqeiB8oez+t6hdYIZR+vLGTW2s+sMFRV2ITiqtItwMFcuul9B1audSFWkDmlqgWryaPNvK8tl0ZFpeSoHtyEts9QpsKxGrjqtShtomasY=
   distributions: sdist bdist_wheel
   on:
     tags: true
