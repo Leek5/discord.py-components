@@ -8,7 +8,7 @@
 ## Welcome!
 
 Discord components are cool, but pycord's document lacks ease of use in components. It
-is hard to wait, so we made a third-party library for using components such as
+is hard to recreate, so we made a third-party library for using components such as
 buttons or selects!
 
 This project is open source ⭐.
@@ -28,3 +28,9 @@ pip install --upgrade pycord-components
 ## License
 
 This project is under the MIT License.
+
+## Repos using PycordComponents
+ * <a href="https://github.com/SpaceDEVofficial/pycord-paginator">PyCord Paginator</a>
+
+## How-to use
+ * Every discordpy, discord,DiscordComponent mention should be changed to pycord, pycord, PycordComponent
